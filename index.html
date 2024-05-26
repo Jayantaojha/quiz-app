@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+
+    <!-- css stylesheet -->
+    <link rel="stylesheet" href="homepage.css">
+
+    <!-- font awasome  cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body class="bg-slate-900 text-white pb-5">
+
+    <!-- header -->
+    <div id="header" class="flex justify-between items-center pt-3 pb-5 px-3 xl:px-7">
+        <h1 class="text-2xl font-bold">Quiz App</h1>
+        <i class="fa-solid fa-bars text-xl font-semibold cursor-pointer" id="nevigation-bar"></i>
+    </div>
+
+    <!-- search box -->
+    <div id="search-box" class="md:w-[60%] xl:w-[40%] md:mx-auto flex justify-start items-center mb-6 px-3 py-3 border border-slate-600 mx-3 rounded-lg gap-x-4">
+        <div id="search-icon"><i class="fa-solid fa-magnifying-glass text-[#94a3b8]"></i></div>
+        <input type="text" id="search-input" class="outline-none text-white bg-transparent" placeholder="Search Topics">
+    </div>
+
+    <!-- quiz options -->
+    <div id="quiz-options" class="pb-4 flex flex-col md:flex-row md:flex-wrap justify-start items-center md:justify-around gap-y-4">
+
+        <button class="quiz-btn text-lg font-bold w-[90vw] h-[20vh] md:w-[30vw] md:h-[10vh] xl:h-[24vh] bg-[#1e293b] text-[#cbd5e1] rounded-lg bg-cover bg-center" style="background-image: url('https://images.pexels.com/photos/315938/pexels-photo-315938.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');">Random</button>
+
+        <button class="quiz-btn text-lg font-bold w-[90vw] h-[20vh] md:w-[30vw] md:h-[10vh] xl:h-[24vh] bg-[#1e293b] text-[#cbd5e1] rounded-lg bg-cover bg-center" style="background-image: url('https://images.pexels.com/photos/1705095/pexels-photo-1705095.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');">Engineering</button>
+
+        <button class="quiz-btn text-lg font-bold w-[90vw] h-[20vh] md:w-[30vw] md:h-[10vh] xl:h-[24vh] bg-[#1e293b] text-[#cbd5e1] rounded-lg bg-cover bg-center" style="background-image: url('https://images.pexels.com/photos/1235971/pexels-photo-1235971.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');">History</button>
+
+        <button class="quiz-btn text-lg font-bold w-[90vw] h-[20vh] md:w-[30vw] md:h-[10vh] xl:h-[24vh] bg-[#1e293b] text-[#cbd5e1] rounded-lg bg-cover bg-center" style="background-image: url('https://images.pexels.com/photos/14460275/pexels-photo-14460275.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');">Sports</button>
+
+        <button class="quiz-btn text-lg font-bold w-[90vw] h-[20vh] md:w-[30vw] md:h-[10vh] xl:h-[24vh] bg-[#1e293b] text-[#cbd5e1] rounded-lg bg-cover bg-center" style="background-image: url('https://images.pexels.com/photos/7001094/pexels-photo-7001094.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');">Wildlife</button>
+
+        <button class="quiz-btn text-lg font-bold w-[90vw] h-[20vh] md:w-[30vw] md:h-[10vh] xl:h-[24vh] bg-[#1e293b] text-[#cbd5e1] rounded-lg bg-cover bg-center" style="background-image: url('https://images.pexels.com/photos/12560346/pexels-photo-12560346.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');">Music</button>
+
+
+    </div>
+
+    <!-- more options-->
+    <div id="more" class="w-full flex justify-center items-center">
+        <i class="fa-solid fa-chevron-down text-[#94a3b8] cursor-pointer"></i>
+    </div>
+
+
+    <!-- javascript file -->
+    <script src="homepage.js"></script>
+
+</body>
+
+</html>
