@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App - Play</title>
+
+    <!-- css stylesheet -->
+    <link rel="stylesheet" href="quiz-playground.css">
+
+    <!-- font awasome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- javascript files -->
+    <script src="quiz-playground.js" defer></script>
+
+</head>
+<body class="bg-slate-900 text-white">
+
+    <!-- container div -->
+    <div id="quiz-play-container" class="bg-white text-black w-[90vw] h-[75vh] lg:w-[50vw] p-5 mx-auto mt-[6vh] lg:mt-[10vh] rounded-lg">
+
+        <div class="border-b border-slate-500 pb-2 mb-4">
+            <h1 id="user-requested-category" class="text-2xl font-bold">Sports</h1>
+        </div>
+
+        <h2 id="question" class="text-lg font-bold">1. Which country first won the Olimpic?</h2>
+
+        <div id="options-list" class="mt-5">
+
+            <button class="option border border-slate-500 w-full p-3 mb-6 text-start rounded-md hover:bg-black hover:text-white">Australia</button>
+            <button class="option border border-slate-500 w-full p-3 mb-6 text-start rounded-md hover:bg-black hover:text-white">Brazil</button>
+            <button class="option border border-slate-500 w-full p-3 mb-6 text-start rounded-md hover:bg-black hover:text-white">Mexico</button>
+            <button class="option border border-slate-500 w-full p-3 mb-6 text-start rounded-md hover:bg-black hover:text-white">South Africa</button>
+
+        </div>
+
+        <button class="bg-[#031c49] text-white border border-slate-500 w-[110px] mt-1 p-2 mx-auto block rounded-md hover:bg-black hover:text-white hidden">Next</button>
+
+    </div>
+    
+
+</body>
+</html>
